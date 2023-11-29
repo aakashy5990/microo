@@ -1,0 +1,95 @@
+/* media quary css start */
+@media screen and (max-width:760px){
+    .grid{
+        grid-template-columns: none;
+        justify-content: center;
+    }
+    .main_img img{
+        display: grid;
+        margin: 2rem auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav_left img{
+        width: 150px;
+    }
+    .login_button i,.login_button a{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .header{
+        margin-bottom: 1rem;
+    }
+    .intro_section .vertical_center_container {
+        /* width: 100%; */
+        margin: 1rem auto;
+        padding: 0;
+    }
+    .grid_item_one .intro_header h2 {
+        font-size: 50px;
+    }
+    .grid_item_one {
+        display: grid;
+        row-gap: 2rem;
+        padding-left: 2rem;
+        padding-right: 1rem;
+    }
+    .services {
+        margin: 2rem 2rem;
+    }
+    .about_grid {
+        grid-template-columns: none;
+        row-gap: 1.5rem;
+    }
+    .about_container {
+        /* padding: 5.5rem 3rem 5.5rem 5.5rem; */
+        padding: 4rem 2rem 4rem 2rem;
+    }
+    .mic_heading h2, .mic_pera p {
+        margin: 0rem 1rem;
+    }
+    .mic_item .img img {
+        width: 300px;
+    }
+    .form_section {
+        margin: 2rem 2rem;
+    }
+    .footer_perents {
+        grid-template-columns:none;
+        padding-left:2rem;
+        justify-content: flex-start;
+    }
+    .footer_main {
+        padding-bottom: 25rem;
+    }
+    .footer_logo img {
+        /* margin: 0 0 1rem 1rem; */
+        margin-left: 2rem;
+    }
+    .footer_items1 ul {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    .footer_items3 input {
+        width: 100%;
+    }
+    .about_header_pera {
+        margin: 0;
+    }
+}
+@media screen and (max-width:574px){
+    .login_button{
+        /* display: none; */
+        visibility: hidden;
+    }
+}
+
+/* mobile width 450px */
+@media screen and (max-width: 450px){
+    .grid_item_one .intro_header h2 {
+    font-size: 35px;
+    }
+    .nav_left img{
+        width: 200px;
+    }
+}
